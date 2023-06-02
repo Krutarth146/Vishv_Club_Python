@@ -101,14 +101,42 @@ for i in list1:   # 10
         print((i,k),end=' ')
 
 
-# i = 1
-# while i<=4:
-#     j = 0
-#     while j<=3:
-#         if i == j:
-#             # print("sdnv nsdv")
-#             continue
-#         j+=1
-#     print(j)
-#     i+=1
+i = 1
+while i<=4:
+    j = 0
+    while j<=3:
+        if i == j:
+            # print("sdnv nsdv")
+            continue
+        j+=1
+    print(j)
+    i+=1
 
+i = 5         
+while i<=10:    # i = 7
+    j = 5       # j = 7
+    while j<=i:  # 7<=6
+        if i == j:  # 6 == 6
+            j+=1    # 
+            break
+        j+=1  
+        print(j,end= ' ')
+    i+=1
+    print(i,end=' ')
+
+# 6 6 7
+
+print("----------")
+for i in range(5):
+    for j in range(7):
+        if j % 3 == 1:
+            break
+    else:
+        print("Inner for else block executed")
+    
+    if i > j:
+        break
+    print("i =",i,"j = ",j)
+    
+else:
+    print("Outer for else block executed")
