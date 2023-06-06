@@ -140,3 +140,13 @@ if rev == safe1:
 # num = 5, step = 6
 
 # 5 + 55 + 555 + 5555 + 55555 + 555555 = (?)
+
+first = 1
+last = 10000
+for num in range(first,last+1):
+    counter = 0
+    for i in range(1,num+1):
+        if num % i == 0:
+            counter += 1
+    if counter == 2:
+        print(num,end=' ')
