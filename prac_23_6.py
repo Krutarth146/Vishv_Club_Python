@@ -65,4 +65,6 @@ for i in range(3):
 print(d2)   # [[10, 9089, 88], [21, 32, 45], [21, 89, 78]]
 
 
-# Power , Fcatorial 5! = 120 , FIbonnacci ---> 0 1 1 2 3 5 8 ....
+# Power , Factorial 5! = 120 , FIbonnacci ---> 0 1 1 2 3 5 8 ....
+
+
